@@ -1,1 +1,944 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+/* Header Layout Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.jnh-header {
+  width: 100%;
+  background-color: #ffffff;
+  
+  box-sizing: border-box;
+}
+
+.jnh-header-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+/* Left Group (Logo + Nav Menu Close Together) */
+.jnh-left-group {
+  display: flex;
+  align-items: center;
+  gap: 65px; /* لوگو اور مینو کے درمیان فاصلہ */
+}
+
+/* Logo Styling */
+.jnh-logo-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.jnh-logo-icon {
+  width: 38px;
+  height: 38px;
+  fill: #3e3835;
+}
+
+.jnh-logo-text {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #2c2724;
+  letter-spacing: -0.5px;
+}
+
+/* Navigation Links */
+.jnh-nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 60px;
+}
+
+.jnh-nav-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  color:#5C5458; /* امیج کے مطابق کلر */
+  text-decoration: none;
+  padding-bottom: 6px;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+/* Hover & Active State Underline */
+.jnh-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3e3835;
+  transition: width 0.25s ease;
+}
+
+.jnh-nav-link:hover {
+  color: #111111;
+}
+
+.jnh-nav-link:hover::after,
+.jnh-nav-link.jnh-active::after {
+  width: 100%;
+}
+
+.jnh-nav-link.jnh-active {
+  color: #111111;
+  font-weight: 600;
+}
+
+/* Right Actions (Search & Phone) */
+.jnh-actions {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.jnh-search-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3e3835;
+  transition: opacity 0.2s ease;
+}
+
+.jnh-search-btn:hover {
+  opacity: 0.7;
+}
+
+.jnh-search-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.jnh-phone-btn {
+  background-color: #524b45;
+  color: #ffffff;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.jnh-phone-btn:hover {
+  background-color: #38332f;
+}
+
+/* Banner Section Styling */
+.jnh-banner-section {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 65px 0;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+.jnh-banner-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.jnh-banner-title {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 16px 0;
+  line-height: 1.2;
+}
+
+/* Breadcrumbs */
+.jnh-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.jnh-bc-link {
+  color: #9c958e;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.jnh-bc-link:hover {
+  color: #524b45;
+}
+
+.jnh-bc-sep {
+  color: #9c958e;
+  font-size: 14px;
+}
+
+.jnh-bc-current {
+  color: #524b45;
+}
+
+/* Responsive Support */
+@media (max-width: 992px) {
+  .jnh-left-group {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 850px) {
+  .jnh-header-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .jnh-left-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .jnh-nav-list {
+    gap: 20px;
+  }
+}
+/* /////////////////////////////////////////////////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Main Section Background (Slightly Darker White) */
+
+
+/* Header Area */
+.jnews-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 50px auto;
+}
+
+.jnews-top-line {
+  width: 45px;
+  height: 3px;
+  background-color: #a38568;
+  margin: 0 auto 20px auto;
+}
+
+.jnews-main-title {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #3b3734;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+}
+
+.jnews-main-subtitle {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Grid Layout for Cards */
+.jnews-grid {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Card Styling (Pure White Box) */
+.jnews-card {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+/* Image Container & Sizing */
+.jnews-img-box {
+  width: 100%;
+  height: 235px;
+  overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.jnews-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Card Content Area */
+.jnews-content {
+  padding: 30px 24px 25px 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.jnews-card-title {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #222222;
+  margin: 0 0 16px 0;
+  line-height: 1.35;
+}
+
+.jnews-card-desc {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.65;
+  margin: 0 0 28px 0;
+  flex-grow: 1;
+}
+
+/* Footer Meta Text (Author & Date) */
+.jnews-card-meta {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #555555;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.jnews-meta-sep {
+  margin: 0 6px;
+  color: #888888;
+}
+
+/* Responsive Support */
+@media (max-width: 900px) {
+  .jnews-grid {
+    flex-direction: column;
+  }
+}
+/* ////////////////////////////// next//////////////////////////////////////// */
+/* Card Container Layout */
+.blog-card-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Individual Card Styling */
+.blog-card {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+/* Image Wrapper & Precision Sizing */
+.card-image-box {
+  width: 100%;
+  height: 230px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Inner Text Padding & Spacing */
+.card-content {
+  padding: 30px 28px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Typography Matching */
+.card-title {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #111111;
+  line-height: 1.3;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.2px;
+}
+
+.card-description {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555555;
+  margin: 0 0 28px 0;
+  flex-grow: 1;
+}
+
+/* Footer / Meta Info Styling */
+.card-meta {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666666;
+  letter-spacing: 0.5px;
+}
+
+.card-meta .separator {
+  color: #aaaaaa;
+  margin: 0 4px;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 768px) {
+  .blog-card-grid {
+    flex-direction: column;
+  }
+}
+
+
+/* //////////////////// footer//////////////////////////////// */
+/* Zero Margin Edge-to-Edge Footer */
+.site-footer {
+  background-color: #26231e;
+  color: #a39e93;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 80px 0 35px 0;
+  width: 100%;
+  margin: 0 !important;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Inner Layout Container */
+.footer-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 45px;
+  box-sizing: border-box;
+}
+
+/* Top Columns Grid Layout */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 45px;
+}
+
+/* Column Widths */
+.footer-col {
+  flex: 1;
+}
+
+.footer-col.col-brand {
+  flex: 1.35;
+  max-width: 400px;
+}
+
+.footer-col.col-contact {
+  flex: 1.15;
+  max-width: 320px;
+}
+
+/* Brand Logo Styling */
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  fill: #cbb28d;
+}
+
+.brand-name {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.3px;
+}
+
+.brand-description {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #a39e93;
+  margin: 0 0 30px 0;
+}
+
+/* Social Buttons */
+.social-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #332f2a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.social-btn svg {
+  width: 17px;
+  height: 17px;
+}
+
+.social-btn:hover {
+  background-color: #1a1815;
+  transform: translateY(-2px);
+}
+
+/* Column Headings */
+.col-heading {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 21.5px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 26px 0;
+}
+
+/* Links List */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 13px;
+}
+
+.footer-links a {
+  color: #a39e93;
+  text-decoration: none;
+  font-size: 15.8px;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* Address Styling */
+.address-text {
+  font-size: 15.8px;
+  line-height: 1.65;
+  color: #a39e93;
+  margin: 0 0 26px 0;
+}
+
+/* Contact Buttons (Phone & Email) */
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.btn-contact {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  background-color: #312d28;
+  color: #e0ddd7;
+  padding: 14px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 15.2px;
+  font-weight: 500;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  box-sizing: border-box;
+}
+
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  fill: #cbb28d;
+  flex-shrink: 0;
+}
+
+.btn-contact:hover {
+  background-color: #1f1c19;
+  color: #ffffff;
+}
+
+/* Horizontal Line Divider */
+.footer-divider {
+  height: 1px;
+  background-color: #332f2a;
+  margin: 55px 0 30px 0;
+  width: 100%;
+}
+
+/* Bottom Copyright Section - Flush to edges with no extra bottom gap */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14.8px;
+  color: #8c877d;
+  margin: 0;
+  padding: 0;
+}
+
+.copyright-text {
+  color: #8c877d;
+  margin: 0;
+}
+
+.legal-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+}
+
+.legal-links a {
+  color: #8c877d;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.legal-links a:hover {
+  color: #ffffff;
+}
+
+.legal-separator {
+  color: #4f4a43;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 40px 20px;
+  }
+  
+  .footer-col {
+    min-width: 45%;
+  }
+
+  .site-footer {
+    padding: 60px 0 30px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .footer-col, 
+  .footer-col.col-brand, 
+  .footer-col.col-contact {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+</style>
+<body>
+  <header class="jnh-header">
+  <div class="jnh-header-container">
+    
+    <div class="jnh-left-group">
+      <a href="#" class="jnh-logo-brand">
+       <img style="width: 200px; " src="./new logo bbb.png" alt="">
+          <path d="M12 2a1 1 0 0 1 1 1v1.076c3.212.42 5.8 2.822 6.34 6.002l.024.162h2.636a1 1 0 1 1 0 2h-1.071c-.347 3.328-2.82 6.012-6.104 6.643l-.125.021V20h3a1 1 0 1 1 0 2H8a1 1 0 1 1 0-2h3v-1.096c-3.212-.42-5.8-2.822-6.34-6.002L4.636 12H2a1 1 0 1 1 0-2h2.071C5.418 6.672 7.89 3.988 11.175 3.357l.125-.021V3a1 1 0 0 1 1-1zm-6 10a4.5 4.5 0 0 0 4.417 3.666l.083.001A4.5 4.5 0 0 0 15 12H6zm12 0h-9a4.49 4.49 0 0 0 4.25 3H15a4.49 4.49 0 0 0 3-1z"/>
+        </svg>
+        
+      </a>
+
+      <nav class="jnh-nav">
+        <ul class="jnh-nav-list">
+          <li><a href="./header.html" class="jnh-nav-link">Home</a></li>
+          <li><a href="./service.html" class="jnh-nav-link">Services</a></li>
+          <li><a href="./about.html" class="jnh-nav-link">About</a></li>
+          <li><a href="./news.html" class="jnh-nav-link jnh-active">News</a></li>
+          <li><a href="./contact.html" class="jnh-nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+
+    <div class="jnh-actions">
+      <button class="jnh-search-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+      <a href="tel:+1234567890" class="jnh-phone-btn">+123 456 7890</a>
+    </div>
+
+  </div>
+</header>
+
+
+
+<section class="jnh-banner-section">
+  <div class="jnh-banner-container">
+    <h1 class="jnh-banner-title">Latest News</h1>
+    <div class="jnh-breadcrumb">
+      <a href="#" class="jnh-bc-link">HOME</a>
+      <span class="jnh-bc-sep">&rsaquo;</span>
+      <span class="jnh-bc-current">LATEST NEWS</span>
+    </div>
+  </div>
+</section>
+
+<!-- /////////////////////////////////////////////////////////// -->
+<br><br><br>
+ 
+  <div class="jnews-grid">
+    
+    <article class="jnews-card">
+      <div class="jnews-img-box">
+        <img src="./bggg1.jpeg" alt="News Image 1" class="jnews-img">
+      </div>
+      <div class="jnews-content">
+        <h3 class="jnews-card-title">Quis Lectus Nulla Volutpat Diamut Venenatis</h3>
+        <p class="jnews-card-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices eros in cursus turpis massa...
+        </p>
+        <div class="jnews-card-meta">
+          <span>JOHN DOE</span> <span class="jnews-meta-sep">/</span> <span>OCTOBER 22, 2021</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="jnews-card">
+      <div class="jnews-img-box">
+        <img src="./bggg2.jpeg" alt="News Image 2" class="jnews-img">
+      </div>
+      <div class="jnews-content">
+        <h3 class="jnews-card-title">Venenatis Lectus Magna Fringilla Porttitor</h3>
+        <p class="jnews-card-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices eros in cursus turpis massa...
+        </p>
+        <div class="jnews-card-meta">
+          <span>JOHN DOE</span> <span class="jnews-meta-sep">/</span> <span>OCTOBER 22, 2021</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="jnews-card">
+      <div class="jnews-img-box">
+        <img src="./bggg3.jpeg" alt="News Image 3" class="jnews-img">
+      </div>
+      <div class="jnews-content">
+        <h3 class="jnews-card-title">Massa Tincidunt Nunc Pulvinar Sapien Ullamcorper</h3>
+        <p class="jnews-card-desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A arcu cursus vitae congue. Nullam...
+        </p>
+        <div class="jnews-card-meta">
+          <span>JOHN DOE</span> <span class="jnews-meta-sep">/</span> <span>OCTOBER 22, 2021</span>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ///////////////////////// next ///////////////////////////////////////// -->
+ <br>
+<div class="blog-card-grid">
+  <article class="blog-card">
+    <div class="card-image-box">
+      <img src="./ttt1.jpeg" alt="Blog Post Image" class="card-image">
+    </div>
+    <div class="card-content">
+      <h2 class="card-title">Suspendisse Faucibus Interdum Posuere</h2>
+      <p class="card-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A arcu cursus vitae congue. Nullam...
+      </p>
+      <div class="card-meta">
+        JOHN DOE <span class="separator">/</span> OCTOBER 22, 2021
+      </div>
+    </div>
+  </article>
+
+  <article class="blog-card">
+    <div class="card-image-box">
+      <img src="./ttt2.jpeg" alt="Blog Post Image" class="card-image">
+    </div>
+    <div class="card-content">
+      <h2 class="card-title">Elementum Nibh Tellus Molestie Nunc Consectetur</h2>
+      <p class="card-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A arcu cursus vitae congue. Nullam...
+      </p>
+      <div class="card-meta">
+        JOHN DOE <span class="separator">/</span> OCTOBER 22, 2021
+      </div>
+    </div>
+  </article>
+
+  <article class="blog-card">
+    <div class="card-image-box">
+      <img src="./ttt3.jpeg" alt="Blog Post Image" class="card-image">
+    </div>
+    <div class="card-content">
+      <h2 class="card-title">Lorem Ipsum Dolor Sitamet Consectetur</h2>
+      <p class="card-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A arcu cursus vitae congue. Nullam...
+      </p>
+      <div class="card-meta">
+        JOHN DOE <span class="separator">/</span> OCTOBER 14, 2021 <span class="separator">/</span> 1 COMMENT
+      </div>
+    </div>
+  </article>
+</div>
+<!-- ////////////////////////////////////////////////////// -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      
+      <div class="footer-col col-brand">
+        <div class="brand-logo">
+         <img style="width: 170px;" src="./logo-light (1).svg" alt="">
+            <path d="M12 2L1 7l11 5 11-5-11-5zM3.5 8.5L12 12.3l8.5-3.8M12 22v-9"/>
+            <path d="M5 12l-3 6h6l-3-6zm14 0l-3 6h6l-3-6z"/>
+          </svg>
+         
+        </div>
+        <p class="brand-description">
+          Egestas purus viverra accumsan in nis in metus dictum at tempor commodo sagittis nisl rhoncus mattis rhoncus urna neque viverra.
+        </p>
+        <div class="social-icons">
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="X (Twitter)">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="col-heading">Overview</h3>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3 class="col-heading">Information</h3>
+        <ul class="footer-links">
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col col-contact">
+        <h3 class="col-heading">Head Office</h3>
+        <p class="address-text">
+          304 North Cardinal St.<br>
+          Dorchester Center, MA 02124
+        </p>
+        <div class="contact-buttons">
+          <a href="tel:+1234567890" class="btn-contact">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            (+123) 456 7890
+          </a>
+          <a href="mailto:info@mymail.com" class="btn-contact">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            info@mymail.com
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      <div class="copyright-text">
+        Copyright © 2026 - WordPress Theme by CreativeThemes
+      </div>
+      <div class="legal-links">
+        <a href="#">Terms & Conditions</a>
+        <span class="legal-separator">|</span>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
