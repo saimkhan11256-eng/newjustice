@@ -1,1 +1,1788 @@
 
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justice</title>
+  <link rel="stylesheet" href="./header.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* /////////////////////////////////////////////////////// header styling start////////////////////////////////////////////////////////// */
+
+
+.parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #B5B1A9;
+    
+}
+.anker{
+    
+    display: flex;
+    margin-right: 20%;
+    gap: 40px;
+    font-size: 20px;
+}
+.anker a:hover{
+    color: white;
+
+}
+.img{
+    width: 150px;
+}
+.imgg{
+    background-image: url(./smiling-professor-smoking-a-pipe-and-reading-RM4E52Y@2x.jpg);
+    height: 130vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -80px;
+}
+/* icon and button both styling */
+.iconbutton{
+    display: flex;
+    gap: 20px;
+}
+ .iconbutton button{
+    border: none;
+    background-color: #4a4947;
+    border-radius: 17px;
+    color: white;
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #A0876E;
+    color: white;
+}
+i{
+    margin-top: 20px;
+}
+/* icon and button both styling */
+ /* /////////////////////////////////////////////////////// header styling ended////////////////////////////////////////////////////////// */
+
+
+
+
+ /* /////////////////////////////////////////////////////// hero section start////////////////////////////////////////////////////// */
+.heading1and2{
+    
+    font-size: 45px;
+    color: white;
+
+}
+
+
+.deserve{
+    padding-top: 220px;
+    margin-left: 60px;
+}
+.fair{
+    margin-left: 60px;
+}
+.legal{
+    margin-left: 60px;
+     font-size: 25px;
+    margin-top: 20px;
+    
+}
+
+.herosection-buttons{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+    
+}
+.herosection-buttons button{
+    padding: 13px;
+font-size: 15px;
+border: none;
+border-radius: 7px;
+}
+.button1{
+    background-color: #A0876E;
+    color: white;
+}
+.button1:hover{
+background-color: #4A413A;
+color: white;
+}
+.button2{
+    background-color: #4a4947;
+    color: white;
+}
+.button2:hover{
+    background-color: #A0876E;
+    color:white ;
+}
+
+.nextsection{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    align-items: center;
+}
+ .secone{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+.sectwo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+.secthree{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+.one{
+    margin-top: -1px;
+    background-color: #A0876E;
+    padding: 15px;
+    border-radius: 50%;
+    
+}
+.two{
+    margin-top: -3px;  
+    background-color: #A0876E;
+     padding: 15px;
+    border-radius: 40%
+}
+
+.three{
+    margin-top: -3px;  
+    background-color: #A0876E;
+     padding: 15px;
+    border-radius: 50%
+}
+
+.line{
+    border: 1px solid grey;
+    width: 90%;
+    margin-top: 50px;
+   margin-left: 20px;
+}
+
+
+.lion{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F1F1F1;
+    padding: 6%;
+    margin-top: -23px;
+   
+    
+}
+.lionson{
+    
+    color: #5C544D;
+    font-size: 40px;
+    
+
+}
+.dau{
+    color:#3F4245;
+    font-size: 23px;
+    line-height: 1.5;
+  
+}
+/* /////////////////////////////////////////////////////// hero section ended////////////////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////////// next hero section start//////////////////////////////////////////////////// */
+
+.third-parent{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+.my-hamour{
+    margin-right: 20px;
+    color: #5C544D;
+    margin-left: 60px;
+    font-size: 12px;
+}
+    
+
+.get{
+    color: #5C544D;
+    font-size: 30px;
+    margin-left: 26px;
+}
+.tortor{
+    color:#3F4263;
+    font-size: 16px;
+    margin-left: 170px;
+    line-height: 1.5;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+.fourth{
+     display: flex;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+
+.database{
+     margin-right: 20px;
+    color: #5C544D;
+    margin-left: 60px;
+    font-size: 12px;
+
+}
+.rates{
+ color: #5C544D;
+    font-size: 30px;
+    margin-left: 26px;
+}
+.morbi{
+color:#3F4263;
+    font-size: 16px;
+    margin-left: 170px;
+    line-height: 1.5;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+
+
+/* //////////////////////////////////////////////// between fourth and fifth///////////////////////////////// */
+
+
+.fifth-parent{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+.people{
+    margin-right: 20px;
+    color: #5C544D;
+    margin-left: 60px;
+  
+}
+    
+
+.expert{
+    color: #5C544D;
+    font-size: 30px;
+    margin-left: 26px;
+}
+.diam{
+    color:#3F4263;
+    font-size: 16px;
+    margin-left: 170px;
+    line-height: 1.5;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+.sixth-parent{
+     display: flex;
+    align-items: center;
+    gap: 25px;
+    
+
+}
+
+.folder{
+     margin-right: 20px;
+    color: #5C544D;
+    margin-left: 60px;
+    font-size: 12px;
+
+}
+.review{
+ color: #5C544D;
+    font-size: 30px;
+    margin-left: 26px;
+}
+.congue{
+color:#3F4263;
+    font-size: 16px;
+    margin-left: 170px;
+    line-height: 1.5;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+
+
+.big-head{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+/* /////////////////////////////////////////////////////// next hero section ended//////////////////////////////////////////////////// */
+
+/* /////////////////////////////////////////////////////// block hero section start//////////////////////////////////////////////////// */
+
+
+.father-inspect{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5C544D;
+    padding: 90px;
+    width: 85%;
+    margin: auto;
+  
+    border-radius: 10px;
+}
+
+.ab{
+    color: white;
+    font-size: 60px;
+}
+.trusted{
+    color: #CECCCA;
+    font-size: 22px;
+}
+
+
+.ba{
+    color: white;
+    font-size: 60px;
+}
+.case{
+    color: #CECCCA;
+    font-size: 22px;
+}
+
+
+
+
+.bc{
+    color: white;
+    font-size: 60px;
+}
+.money{
+    color: #CECCCA;
+    font-size: 22px;
+    margin-left: 35px;
+}
+
+
+
+
+.ac{
+    color: white;
+    font-size: 60px;
+}
+.closed{
+    color: #CECCCA;
+    font-size: 22px;
+}
+/* /////////////////////////////////////////////////////// block hero section ended//////////////////////////////////////////////////// */
+
+
+
+/* /////////////////////////////////////////////////////// next background image start//////////////////////////////////////////////// */
+
+.medium-background{
+    background-image: url(./legal-practice-area-cover@2x.webp);
+    height: 230vh;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+
+}
+.practice{
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+
+.line-two{
+    border: 3px solid grey;
+    width: 10%;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+
+
+.maecenas{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.tincidunt{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+    /* /////////////////////////////////////////// row 1 start///////////////////////// */
+
+.head-icons{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.group-Aone{
+    width: 33.3%;
+}
+
+.house{
+    font-size: 12px;
+}
+
+.family{
+    font-size: 25px;
+    color: white;
+}
+
+.group-Apone{
+    color: #B9B7B6;
+    font-family: sans-serif;
+    line-height: 1.8;
+    width: 100%;
+}
+.group-Aptwo{
+    color: #B9B7B6 ;
+    font-family: sans-serif;
+}
+
+
+
+
+.group-Bone{
+    width: 33.3%;
+}
+.imigrate{
+    color:white ;
+    font-size: 25px;
+}
+
+
+
+
+
+.group-Cone{
+    width: 33.3%;
+}
+.law{
+    color: white;
+    font-size: 25px;
+}
+
+
+ /* /////////////////////////////////////////// row 1 ended///////////////////////// */
+
+ /* /////////////////////////////////////////// row 2 start///////////////////////// */
+
+.head-iconstwo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.group-Done{
+    width: 33.3%;
+}
+
+
+
+.bonk{
+    font-size: 25px;
+    color: white;
+}
+
+.group-Apone{
+    color: #B9B7B6;
+    font-family: sans-serif;
+    line-height: 1.8;
+    width: 100%;
+}
+.group-Aptwo{
+    color: #B9B7B6 ;
+    font-family: sans-serif;
+}
+
+
+
+
+.group-Eone{
+    width: 33.3%;
+}
+.civil{
+    color:white ;
+    font-size: 25px;
+}
+
+
+.group-Fone{
+    width: 33.3%;
+}
+.insurance{
+    color: white;
+    font-size: 25px;
+}
+
+ /* /////////////////////////////////////////// row 2 ended///////////////////////// */
+
+ /* /////////////////////////////////////////// row 3 start///////////////////////// */
+
+.head-iconsthree{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.group-Gone{
+    width: 33.3%;
+}
+
+
+
+.acci{
+    font-size: 25px;
+    color: white;
+}
+
+.group-Apone{
+    color: #B9B7B6;
+    font-family: sans-serif;
+    line-height: 1.8;
+    width: 100%;
+}
+.group-Aptwo{
+    color: #B9B7B6 ;
+    font-family: sans-serif;
+}
+
+
+
+
+.group-Hone{
+    width: 33.3%;
+}
+.proper{
+    color:white ;
+    font-size: 25px;
+}
+
+
+.group-Ione{
+    width: 33.3%;
+}
+.corp{
+    color: white;
+    font-size: 25px;
+}
+ /* /////////////////////////////////////////// row 3 ended///////////////////////// */
+ 
+
+ /* /////////////////////////////////////////// button css///////////////////////// */
+.view-practice{
+    display: block;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: #A0876E;
+    border: none;
+    padding: 16px;
+    font-size: 20px;
+    width: 25%;
+    border-radius: 10PX;
+    color: white;
+    
+}
+.view-practice:hover{
+    background-color: #93785D;
+    color: white;
+}
+
+
+/* /////////////////////////////////  less opacity of medium background image///////////// */
+.medium-color{
+    background:rgba(0, 0, 0, 0.605);
+    height: 230vh;
+}
+/* /////////////////////////////////  less opacity of medium background image///////////// */
+
+
+ /* //////////////////// meet our lawyers start////////////// */
+
+.met{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F1F1F1;
+    padding: 6%;
+    margin-top: -23px;
+    padding-bottom: 27%;
+   
+    
+}
+.lawyer{
+    
+    color: #5C544D;
+    font-size: 40px;
+    margin-top: 30px;
+    
+
+}
+.dolor{
+    color:#3F4245;
+    font-size: 23px;
+    line-height: 1.6;
+  
+}
+/* //////////////////// meet our lawyers ended////////////// */
+
+    /* /////////////  three pictures section star//////////////////  */
+
+.pic-head{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -230px;
+    
+} 
+
+.bg-one{
+    background-image:url(./pic-1.jpg) ;
+    width: 30%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+ }
+
+.gran{
+    color: #FFFFFF;
+       margin-top: 110%;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.part{
+    color: #88735E;
+     margin-left: 20px ;
+    font-family: sans-serif;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+
+                /* ///////////////// */
+.bg-two{
+    background-image: url(./pic-2.jpg);
+     width: 30%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.carol{
+    color:#FFFFFF ;
+    margin-top: 110%;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.lit-part{
+    color: #88735E;
+    margin-left: 20px ;
+    font-family: sans-serif;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+
+          /* ///////////////// */
+
+.bg-three{
+    background-image: url(./pic-3.jpg);
+      width: 30%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-position: center;
+       border-radius: 10px;
+}
+.jordan{
+    color: #FFFFFF;
+    margin-top: 110%;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.big-part{
+    color: #88735E;
+    margin-left: 20px ;
+    font-family: sans-serif;
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+
+       /* ///////////////// */
+    
+    /* /////////////  three pictures section ended//////////////////  */
+
+    /* ///////////// second big picture section start//////////////////  */
+    .second-large{
+        
+        background-image: url(./hhh.png);
+        width: 100%;
+        height: 110vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 500px;
+        background-color: black;
+        padding-top: 10%;
+        margin: auto;
+        
+    }
+
+.testi{
+    color: #A0876E;
+    font-size: 60px;
+    margin-left: 95px;
+}
+.mau{
+    color: #D1D1D1;
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 1.6;
+     margin-left: 100px;
+    
+}
+.jan{
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 25px;
+     margin-left: 100px;
+    
+}
+/* ///////////// second big picture section ended//////////////////  */
+
+
+/* <!-- ///////////// logo section ended////////////////// --> */
+
+
+/* <!-- ///////////// table section start////////////////// --> */
+
+
+
+
+
+.father-logosection{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+
+.chold-one{
+ font-size: 20px;
+}
+.ipsum-one{
+width: 70%;
+}
+
+
+.chold-two{
+    margin-top: 0px;
+}
+
+.ipsum-two{
+color: #5E5E5E;
+width: 70%;
+ 
+}
+
+.chold-three{
+   margin-top: -5px;
+}
+
+.ipsum-three{
+width: 70%;
+
+}
+
+.chold-four{
+ margin-top: -3px;   
+}
+
+.ipsum-four{
+width: 70%;
+
+}
+.chold-five{
+    margin-top: -10px;
+}
+
+.ipsum-five{
+width: 70%;
+
+}
+
+.chold-six{
+   margin-top: -1px;
+}
+
+.ipsum-six{
+width: 70%;
+
+}
+
+
+/* <!-- ///////////// logo section start////////////////// --> */
+
+.table-section{
+    background-image: url(./bg\ img.webp);
+    width: 100%;
+    height: 165vh;
+}
+.table-color{
+      background:rgba(0, 0, 0, 0.765);
+    height: 165vh;
+}
+
+.locate-office{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.offi{
+    color:  #FFFFFF ;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.north{
+    color:  #FFFFFF ;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+
+
+.contact-one{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.cont{
+  color:  #FFFFFF ;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 13px;  
+}
+
+.info-company{
+    color:#FFFFFF ;
+    margin-left: 130px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.contact-one{
+    display: flex;
+    margin-top: 20px;
+    align-items: center; 
+}
+
+.hour{
+  color:  #FFFFFF ;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 13px;  
+}
+
+.saturday{
+    color:#FFFFFF ;
+    margin-left: 130px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+
+/* ///////////////////// */
+*{
+    border: none;
+}
+
+
+.boss{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    gap: 30px;
+    
+}
+.second-boss{
+     display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.place-one{
+    padding: 18px;
+    margin-top: 5px;
+    border-radius: 6px;
+     background-color: #F7F5F4;
+     
+}
+.first-one{
+    margin-top: 30px;
+}
+second-one{
+    margin-top: 20px;
+}
+.place-two{
+    padding: 18px;
+    margin-top: 5px;
+    border-radius: 6px;
+     background-color: #F7F5F4;
+}
+.place-three{
+    padding: 18px;
+    margin-top: 5px;
+    border-radius: 6px;
+     background-color: #F7F5F4;
+}
+.place-four{
+    padding: 18px;
+    margin-top: 5px;
+    border-radius: 6px;
+     background-color: #F7F5F4;
+}
+
+
+.third-one{
+    margin-left: 40px;
+    font-family: sans-serif;
+    
+}
+
+.place-five{
+    width: 85%;
+    padding: 20px;
+    margin-top: 5px;
+     border-radius: 6px;
+     margin-left: 20px;
+      background-color: #F7F5F4;
+     
+}
+.place-six{
+    padding-bottom: 140px;
+    width: 85%;
+    margin-top: 10px;
+     border-radius: 6px;
+     margin-left: 15px;
+     background-color: #F7F5F4;
+}
+
+
+.req{
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 19px;
+    font-size: 15px;
+    margin-top: 5px;
+     border-radius: 6px;
+     background-color: #A0876E;
+     color: white;
+}
+.req:hover{
+ background-color: #5C544D;  
+  color: white; 
+}
+
+/* <!-- ///////////// logo section ended////////////////// --> */
+
+/* //////////////////////// footer start//////////////////// */
+
+.disk{
+    width: 160px;
+    margin-top: 50px;
+}
+.purus{
+    font-family: sans-serif;
+    color: #979591;
+    line-height: 1.5;
+}
+.boss{
+    width: 25%;
+    gap: 10px;
+}
+.view-two{
+    font-family: sans-serif;
+    color: white;
+}
+.mate{
+    font-family: sans-serif;
+     color: white;
+}
+.head-two{
+    font-family: sans-serif;
+     color: white;
+}
+.north-one{
+    color:#979591 ;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.face-two{
+    border-radius: 50%;
+}
+.youtube-two{
+     border-radius: 50%;
+}
+.insta-two{
+     border-radius: 50%;
+}
+.twitter{
+    border-radius: 50%;
+}
+
+.over-section{
+    display: flex;
+    color:  #979591 ;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+
+.plus-two{
+    margin-left: 30px;
+    color: white;
+    margin-top: -15px;
+    font-family: sans-serif;
+}
+.com-one{
+    background-color: #3A352E;
+    padding: 12px;
+     padding-left: 25px;
+    padding-right: 20px;
+    border-radius: 8px;
+}
+/* /////////////////////// */
+.boss-ended{
+background-color: #2F2A23;
+    padding-bottom: 4%;
+    width: 100%;
+}
+
+.last-line{
+     border: 1px solid grey;
+    width: 90%;
+    margin: auto;
+    margin-top: -15px;
+}
+
+.ended-now{
+    display: flex;
+    justify-content: space-around;
+    gap: 28%;
+
+}
+.right{
+    color: #979591;
+    font-family: sans-serif;
+}
+.policy-sis{
+ color: #979591;   
+  font-family: sans-serif;
+}
+
+
+
+
+</style>
+
+<body>
+  <!-- //////////////////////////////////////header code start/////////////////////////////////////////////////// -->
+  <div class="parent">
+    <div class="img">
+      <img src="./logo-light (1).svg" alt="Justice" />
+    </div>
+
+    <div class="anker">
+      <a href="./header.html" style="color: white">Home</a>
+      <a href="./service.html">Service</a>
+      <a href="./about.html">About</a>
+      <a href="./news.html">News</a>
+      <a href="./contact.html">Contact</a>
+    </div>
+
+    <div class="iconbutton">
+      <i style="color: white" class="fa fa-search" aria-hidden="true"></i>
+      <button>+308 093 0213</button>
+    </div>
+  </div>
+  <!-- //////////////////////////////////////header code ended/////////////////////////////////////////////////// -->
+
+
+
+  <!-- ///////////////////////////////////////// hero section start /////////////////////////////////////////////  -->
+
+  <section class="imgg">
+    <div class="heading1and2">
+      <h1 class="deserve">You Deserve</h1>
+      <h1 class="fair">Fair Trial</h1>
+      <p class="legal">Get free legal advise from our experienced lawyers</p>
+      <div class="herosection-buttons">
+        <button class="button1"> Free Consultation</button>
+        <button class="button2">Learn More</button>
+
+        <br><br>
+        <div class="line">
+
+        </div>
+        <br>
+      </div>
+
+      <div class="nextsection">
+
+
+        <div class="secone">
+          <i class="fa fa-check-circle-o one" aria-hidden="true"></i>
+          <span style="color: #A0876E;">Book an</span> appointment
+        </div>
+
+        <div class="sectwo">
+          <i class="fa fa-credit-card-alt two" aria-hidden="true"> </i>
+          <span style="color: #A0876E;">Free case</span> evaluation
+        </div>
+
+        <div class="secthree">
+
+          <i class="fa fa-calculator three" aria-hidden="true"></i>
+          <span style="color: #A0876E;">Pay the bill</span> online
+        </div>
+      </div>
+      <br>
+      <!-- ///////////////////////////////////////// hero section ended /////////////////////////////////////////////  -->
+
+
+      <!-- ///////////////////////////////////////// second hero section start/////////////////////////////////////////////  -->
+
+      <div class="lion">
+
+        <div class="lionson">
+          <h3>Legal advise and</h3>
+          <h3>other assistance</h3>
+        </div>
+        <div class="dau">
+          <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed <br> diam nonumy eirmod tempor invidunt ut
+            labore et dolore <br> magna aliquyam erat, sed diam voluptua vero eos et <br> accusam et justo duo.</span>
+        </div>
+      </div>
+
+      <!-- ///////////////////////////////////////// second hero section ended/////////////////////////////////////////////  -->
+
+
+      <!-- ///////////////////////////////////////// third hero section  start///////////////////////////////////////////// -->
+
+
+        <div class="big-head">
+
+          <div class="headof-thirdfourth">
+
+            <div class="third-parent">
+              <i class="fa fa-gavel my-hamour " aria-hidden="true"></i>
+              <h4 class="get">Get Your Legal Advise</h4>
+            </div>
+
+            <div class="tortor">
+              <p>Nibh tortor id aliquet lectus proin nibh. Pretium quam <br> vulputate dignissim suspendisse condimentum
+                bibendum.</p>
+            </div>
+
+            <br>
+
+            <div class="fourth">
+              <i class="fa fa-database database" aria-hidden="true"></i>
+              <h4 class="rates">Discounted Rates</h4>
+            </div>
+
+            <div class="morbi">
+              Facilisi morbi tempus iaculis urna id volutpat lacus laoreet <br> non. At urna condimentum mattis
+              pellentesque id nibh.
+            </div>
+
+          </div>
+
+          <!-- /////////////////////////////between third and fourth///////////////////////////////////////////// -->
+
+          <div class="headof-fifthsixth">
+
+            <div class="fifth-parent">
+              <i class="fa fa-users people" aria-hidden="true"></i>
+              <h4 class="expert">Work With Experts</h4>
+            </div>
+
+            <div class="diam">
+              <p>Diam maecenas ultricies mi eget mauris pharetra et ultrices <br> neque. Sed sed risus pretium quam
+                vulputate dignissim.</p>
+            </div>
+
+            <br>
+
+            <div class="sixth-parent">
+              <i class="fa fa-folder-open folder" aria-hidden="true"></i>
+              <h4 class="review">Review Documents</h4>
+            </div>
+
+            <div class="congue">
+              <p>Congue quisque egestas diam in arcu cursus euismod. <br> Semper eget duis at tellus at urna condimentum
+                mattis</p>
+            </div>
+
+          </div>
+        </div>
+
+    </div>
+
+
+    <!-- ///////////////////////////////////////// third hero section ended/////////////////////////////////////////////  -->
+
+
+    <!-- ///////////////////////////////////////// fourth hero section start/////////////////////////////////////////////  -->
+    <div class="father-inspect">
+
+      <div class="inspect-one">
+        <h4 class="ab">123K</h4>
+        <p class="trusted">Trusted Clients</p>
+      </div>
+
+      <div class="inspect-two">
+        <h4 class="ba">98%</h4>
+        <p class="case">Successful Case</p>
+      </div>
+
+      <div class="inspect-three">
+        <h4 class="bc">$123M</h4>
+        <p class="money">Money Case</p>
+      </div>
+
+      <div class="inspect-four">
+        <h4 class="ac">200</h4>
+        <p class="closed">Case Closed</p>
+      </div>
+
+    </div>
+<br><br>
+
+    <!-- ///////////////////////////////////////// fourth hero section ended/////////////////////////////////////////////  -->
+
+
+    <!-- /////////////////////////////////////////  next background image start/////////////////////////////////////////////  -->
+    <div class="medium-background">
+      <div class="medium-color">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="line-two"></div>
+
+      <br>
+
+      <div class="practice">
+        <h1>Legal Practice Areas</h1>
+      </div>
+
+      <br><br>
+
+      <div class="both-head">
+        <p class="maecenas">Maecenas interdum lorem eleifend orci aliquam mollis. Aliquam non rhoncus magna Suspendisse
+          aliquet</p>
+        <p class="tincidunt">tincidunt enimut commodo elit feugiat aecenas nec enim.</p>
+      </div>
+
+
+      <br><br>
+
+
+
+
+      <!-- 
+     /* /////////////////////////////////////////// row 1 start///////////////////////// */ -->
+
+      <div class="head-icons">
+
+        <div class="group-Aone">
+          <i class="fa fa-home " style="font-size: 40px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="family">Family Law</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+
+        <div class="group-Bone">
+          <i class="fa fa-wifi" style="font-size: 35px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="imigrate">Imigration</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+
+        <div class="group-Cone">
+          <i class="fa fa-shopping-cart" style="font-size: 40px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="law">Consumar law</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+      </div>
+
+      <br><br><br>
+
+      <!-- /////////////////////////////////////////// row 1 ended/////////////////////////  -->
+
+      <!-- //////////////////////////////////////second row start ///////////////////////////////  -->
+
+
+
+      <div class="head-iconstwo">
+
+        <div class="group-Done">
+          <i class="fa fa-university" style="font-size: 35px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="bonk">Banking & Finance</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+
+        <div class="group-Eone">
+          <i class="fa fa-balance-scale" style="font-size: 40px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="civil">Civil Law</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+
+        <div class="group-Fone">
+          <i class="fa fa-user-plus" style="font-size: 40px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="insurance">Insurance Law</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+      </div>
+
+      <br><br><br>
+
+
+
+      <!-- //////////////////////////////////////////second row ended /////////////////////////////// -->
+
+
+      <!-- //////////////////////////////////////////third row start /////////////////////////////// -->
+
+
+      <div class="head-iconsthree">
+
+        <div class="group-Gone">
+          <i class="fa fa-car" style="font-size: 35px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="acci">Car accident</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+
+        <div class="group-Hone">
+          <i class="fa fa-building" style="font-size: 35px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="proper">Property law</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+
+        <div class="group-Ione">
+          <i class="fa fa-user" style="font-size: 40px;color: #A0876E;" aria-hidden="true"></i>
+          <br><br>
+          <h4 class="corp">Corporate Law</h4>
+          <br>
+          <p class="group-Apone">Aenean non accumsan antacumsan sem</p>
+          <p class="group-Aptwo">tempus porta nec sit amet est.</p>
+        </div>
+
+      </div>
+      <br><br><br><br><br><br>
+
+      <!-- ////////////////////////////////////////// third row ended /////////////////////////////// -->
+
+      <button class="view-practice">VIEW ALL PRACTICE AREAS</button>
+
+
+
+      </div>
+
+
+
+
+      <!-- /////////////medium background  image div ended here////////////////// -->
+    </div>
+    <!-- /////////////medium background  image div ended here////////////////// -->
+    
+    
+
+        <!-- ///////////// meet your lawyers start////////////////// -->
+        
+     <div class="met">
+
+        <div class="lawyer">
+          <h3>Meet our Lawyers</h3>
+        </div>
+        <div class="dolor">
+          <span>Lorem ipsum dolor sit amet, consetetur sadipscing <br> elitr, sed diam nonumy eirmod tempor invidunt ut <br> labore et dolore magna aliquyam erat, sed diam <br> voluptua.</span>
+        </div>
+      </div>
+
+
+        <!-- ///////////// meet your lawyers ended////////////////// -->
+
+           <!-- /////////////  three pictures section start////////////////// -->
+
+            <!-- /////////////  three pictures section start////////////////// -->
+
+            <div class="pic-head">
+       <div class="bg-one">
+       <h4 class="gran">Eugene Grand</h4>
+       <br>
+       <p class="part">Partner</p>
+       </div>    
+
+      <div class="bg-two">
+      <h4 class="carol">Danielle Carrol</h4>
+      <br>
+       <p class="lit-part">Partner</p>
+      </div>
+
+      <div class="bg-three">
+        <h4 class="jordan">George Jordan</h4>
+        <br>
+       <p class="big-part">Partner</p>
+      </div>
+
+       </div>
+       <br><br><br><br><br><br><br>
+ <!-- /////////////  three pictures section ended////////////////// -->
+
+  <!-- /////////////   second big picture section start////////////////// -->
+  <div class="second-large">
+    <br><br>
+  <h2 class="testi">Testimonials</h2>
+   <br><br><br>
+   <p class="mau">Mauris imperdiet orci dapibus, commodo <br> libero nec, interdum tortor. Morbi in nibh <br> faucibus, iaculis lorem vitae, cursus velit. <br> Mauris in fringilla velit.</p>
+    <br><br><br><br>
+   <p class="jan">Jenny Doe, CEO Company Inc.</p>
+  </div>
+  
+  <!-- /////////////   second big picture section ended////////////////// -->
+
+
+  <!-- ///////////// logo section start////////////////// -->
+   <div class="father-logosection">
+
+    <div class="chold-one">
+    <img src="./page-1.png" class="ipsum-one" alt="">
+    </div>
+
+   <div class="chold-two">
+    <img src="./page-2.png" class="ipsum-two" alt="">
+    </div>
+
+    <div class="chold-three">
+    <img src="./page-3.png" class="ipsum-three" alt="">
+    </div>
+
+    <div class="chold-four">
+    <img src="./page-4.png" class="ipsum-four" alt="">
+    </div>
+
+    <div class="chold-five">
+    <img src="./page-5.png" class="ipsum-five" alt="">
+    </div>
+
+    <div class="chold-six">
+    <img src="./page-6.png" class="ipsum-six" alt="">
+    </div>
+
+   </div>
+   <br>
+<!-- ///////////// logo section ended////////////////// -->
+
+
+<!-- ///////////// table section start////////////////// -->
+
+
+
+  <div class="table-section">
+<div class="table-color">
+
+  <div class="big-father">
+
+  <div class="sun">
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h2 style="color: #FFFFFF; font-size: 60px; margin-left: 70px; ">Get a Personal</h2>
+<h2 style="color: #FFFFFF; font-size: 60px; margin-left: 70px;">Consultation</h2>
+<br><br><br>
+
+<div class="locate-office">
+  <i class="fa fa-map-marker" style=" color: #A0876E; font-size: 30px; margin-left: 70px;" aria-hidden="true"></i>
+  <h4 class="offi">Office</h4>
+</div>
+<p class="north">304 North Cardinal St. Dorchester <br>Center, MA 02124</p>
+
+
+<div class="contact-one">
+  <i class="fa fa-envelope-o" style=" color: #A0876E; font-size: 30px; margin-left: 70px;" aria-hidden="true"></i>
+  <h4 class="cont">contact</h4>
+</div>
+<br>
+<p class="info-company">info@company.com <br>contact@company.com</p>
+
+
+<div class="contact-one">
+  <i class="fa fa-clock-o" style=" color: #A0876E; font-size: 30px; margin-left: 70px;"  aria-hidden="true"></i>
+  <h4 class="hour">Open Hours</h4>
+</div>
+<br>
+<p class="saturday">Monday-Saturday 8 am – 6pm<br>Sunday 11am – 4pm</p>
+<br><br>
+
+<!-- /////// sun////// -->
+</div>
+<!-- /////// sun////// -->
+
+  <form style="width: 45%; background-color:white; height: 120vh;border-radius: 10px; margin-left: 50%;margin-top: -60%; padding-top: 40px;">  
+    
+<div style="display: flex;justify-content: space-evenly; font-family: sans-serif;">
+
+    <div class="first-one">
+    <label class="name-new" for=""> Name</label>
+    <br>
+    <input class="place-one" type="text" placeholder="john Doe">
+     </div>
+
+
+       <div class="first-one">
+    <label class="phone-new" for=""> phone</label>
+    <br>
+    <input class="place-two" type="text" placeholder="(+63) 555 1212">
+     </div>
+ </div>  
+ 
+ <div class="second-boss">
+
+  <div class="first-one">
+    <label class="email-new" for=""> Email Address</label>
+    <br>
+    <input class="place-three" type="text" placeholder="john.doe@gmail.com">
+     </div>
+
+
+       <div class="first-one">
+    <label class="ser-new" for=""> service</label>
+    <br>
+    <input class="place-four" type="text" placeholder="Insurance law">
+    
+     </div>
+ 
+</div>
+
+<br><br>
+       <div class="third-one">
+    <label style="margin-left: 18px;" for=""> Subject</label>
+    <br>
+    <input class="place-five" type="text" placeholder="Insurance Dispute Information">
+
+     </div>
+<br><br>
+       <div class="third-one">
+    <label style="margin-left: 16px;" for=""> Paragraph Text</label>
+    <br>
+    <input class="place-six" type="text" placeholder="">
+     </div>
+     <br><br>
+     <br>
+<button class="req">Request a quote</button>
+
+
+
+</form>   
+<!-- ///////////////////////////////// -->
+
+  
+ <!-- ///////////////// -->
+</div>
+<!-- /////////////// -->
+
+
+<!-- ////////// big father -->
+</div>
+<!-- ////////// big father -->
+
+
+<!-- ///////// table color and table section/////////// -->
+</div>
+</div>
+<!-- ///////// table color and table section/////////// -->
+
+  
+<!-- ///////// footer start /////////// -->
+
+<footer style="display: flex; justify-content: space-around; background-color: #2F2A23; padding-bottom: 50px;">
+
+<div class="f-one">
+  <br><br>
+  <img class="disk" src="./second one.png" alt="">
+<br><br><br>
+<p class="purus">Egestas purus viverra accumsan in nis in metus dictum at <br> tempor commodo sagittis nisl rhoncus mattis rhoncus <br> urna neque viverra.
+</p>
+<br><br>
+<div class="boss">
+<img class="face-two" src="./face.png" alt="">
+<img class="twitter" src="./twitte.png" alt="">
+<img class="insta-two" src="./insta.png" alt="">
+<img class="youtube-two" src="./youtue.png" alt="">
+</div>
+
+</div>
+
+
+<div class="f-two">
+  <br><br><br><br><br>
+  <h3 class="view-two">Over View</h3>
+  <br>
+  <a class="over-section" href="">Home</a>
+  <a class="over-section" href="">Services</a>
+  <a class="over-section" href="">About Us</a>
+  <a class="over-section" href="">Blog</a>
+
+</div>
+
+
+<div class="f-three">
+  <br><br><br><br><br>
+  <h3 class="mate">Information</h3>
+  <br>
+  <a class="over-section" href="">Faq</a>
+  <a class="over-section" href="">Site map</a>
+  <a class="over-section" href="">Cookie Policy</a>
+  <a class="over-section" href="">Contact Us</a>
+
+</div>
+
+<div class="f-four">
+  <br><br><br><br><br>
+  <h3 class="head-two">Head Office</h3>
+  <br>
+ <p class="north-one">304 North Cardinal St. <br> Dorchester Center, MA <br> 02124</p>
+ <br>
+ <div style="display: flex; gap: 10px;">
+  <i style="color: #93785D; background-color: #3A352E; padding: 13px; border-radius: 8px; " class="fa fa-phone" aria-hidden="true"><p class="plus-two">(+123 456 7890)</p></i>
+ 
+</div>
+
+
+  <i style="color: #93785D;  padding: 11px; background-color:  #3A352E; border-radius: 8px;" class="fa fa-envelope" aria-hidden="true"><p class="plus-two">Info@mymail.com</p></i>
+</div>
+
+<!-- ///////////////////////// -->
+
+</footer>
+
+<div class="boss-ended">
+<br><br><br>
+  <div class="last-line">
+  </div>
+<br><br><br>
+<div class="ended-now">
+
+<div class="right">
+  Copyright © 2026 - WordPress Theme by CreativeThemes
+</div>
+<div class="policy-sis">
+  Terms & Conditions | Privacy Policy
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
